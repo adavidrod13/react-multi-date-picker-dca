@@ -60,11 +60,11 @@ export default function Doc({ translate, language, otherProps, localeImport }) {
                 <code>
                   {`
 {
-  selectedDates: "Selected Dates:",
-  from: "From:",
-  to: "To:",
-  selectDate: "Select Date",
-  close: "Close",
+  selectedDates: "Fechas seleccionadas:",
+  from: "Desde:",
+  to: "Hasta:",
+  selectDate: "Seleccionar Fecha",
+  close: "Cerrar",
   separator: "-",
 }`}
                 </code>

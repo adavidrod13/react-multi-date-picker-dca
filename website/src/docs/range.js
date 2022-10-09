@@ -115,7 +115,7 @@ const [allDates, setAllDates] = useState([])
   {dates.length > 1 &&
     <div>
       <h5>
-        All Dates between {dates[0].format()} and {dates[1].format()}:
+        Todas las fechas entre {dates[0].format()} y {dates[1].format()}:
       </h5>
       <ul>
         {allDates.map((date, index) => <li key={index}>{date.format()}</li>)}
@@ -150,7 +150,7 @@ const [allDates, setAllDates] = useState([])
           <div>
             <h5>
               {language === "en"
-                ? `All Dates between ${dates[0].format()} and ${dates[1].format()}`
+                ? `Todas las fechas entre ${dates[0].format()} y ${dates[1].format()}`
                 : `تمام روز های مابین ${dates[0].format()} و ${dates[1].format()}`}
               :
             </h5>

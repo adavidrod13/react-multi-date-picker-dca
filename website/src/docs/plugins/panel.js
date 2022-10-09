@@ -301,14 +301,14 @@ ${$import}const [value, setValue] = useState([
 import DatePanel from "react-multi-date-picker/plugins/date_panel" 
 ${$import}<DatePicker
   plugins={[
-    <DatePanel header="${language === "en" ? "All Dates" : "همه تاریخ ها"}" />
+    <DatePanel header="${language === "en" ? "Selección" : "همه تاریخ ها"}" />
   ]}
 />`,
     jsx: (
       <DatePicker
         plugins={[
           <DatePanel
-            header={language === "en" ? "All Dates" : "همه تاریخ ها"}
+            header={language === "en" ? "Selección" : "همه تاریخ ها"}
           />,
         ]}
         {...otherProps}
